@@ -1,0 +1,318 @@
+
+.navbar-logo {
+    color: white;
+    font-size: 35px;
+}
+
+.bg-container {
+    background-color: #191a1d;
+    height: 100vh;    
+    background-size: cover;
+    width: 100vw;
+}
+
+.portfolio-image {
+    width: 80%;
+    border-radius: 180px;
+}
+
+.main-heading {
+    color: white;
+    font-size: 45px;
+}
+
+.span-sai {
+    color: #4b6cc1;
+}
+
+.text-container {
+    font-size: 20px;
+    color: #9aa5b1;
+}
+.button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    --webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .button-64:active,
+  .button-64:hover {
+    outline: 0;
+  }
+  
+  .button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 10%;
+    transition: 300ms;
+  }
+  
+  .button-64:hover span {
+    background: none;
+  }
+
+#nav-text {
+    color: white;
+}
+
+.portfolio-bg-container {
+    background-color: #191a1d;
+    background-size: cover;
+}
+
+.portfolio-side-heading {
+    color: #cced00;
+}
+
+.portfolio-about-heading {
+    color: white;
+    font-weight: 600;
+}
+
+.portfolio-my-image {
+    width: 50%;
+    border-radius: 15px;
+}
+
+.portfolio-about-me {
+    font-size: 18px;
+    color: #9aa5b1;
+}
+
+.portfolio-skills-container {
+    background-color: #191a1d;
+}
+
+.portfolio-skill-card {
+    background-color: #323f4b;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+    padding-bottom: 10px;
+}
+.portfolio-skill-card:hover{
+    background-image:linear-gradient(rgb(236, 28, 163), rgb(222, 66, 243),rgba(0, 221, 235, 1))  ;
+    box-shadow:0 8px 16px 0 ;
+}
+
+.portfolio-skill-image {
+    width: 100px;
+    height: 100px;
+}
+
+.portfolio-skill-name {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.project-bg-container {
+    background-color: #191a1d;
+}
+
+.portfolio-heading {
+    font-size: 18px;
+    color: #cced00;
+}
+
+.projects-heading {
+    color: white;
+    font-size: 30px;
+}
+
+.project-card {
+    background-color: #323f4b;
+    padding-bottom: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 75%;
+}
+.project-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(91, 66, 243, 5.2);
+    animation: both;
+  }
+
+.project-image {
+    width: 100%;
+}
+
+.project-title {
+    font-size: 11px;
+}
+
+p {
+    color: #9aa5b1;
+}
+
+.project-read-button {
+    color: #cced00;
+}
+
+.project-heading {
+    color: white;
+    font-size: 25px;
+}
+
+.service-bg-container {
+    background-color: #191a1d;
+    background-size: cover;
+}
+
+.service-heading {
+    color: #cced00;
+    font-size: 23px;
+}
+
+.service-what-heading {
+    color: white;
+    font-size: 45px;
+}
+
+.service-card-container {
+    background-color: #323f4b;
+    border-radius: 15px;
+}
+
+.service-card-image {
+    width: 40px;
+    height: 40px;
+}
+
+.service-card-heading {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.service-card-description {
+    color: #9aa5b1;
+}
+.project-button {
+    all: unset;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .project-button::after,
+  .project-button::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
+  }
+  
+  .project-button::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background: #28282d;
+    border-radius: 10px;
+  }
+  
+  .project-button::after {
+    transform: translate(10px, 10px);
+    width: 35px;
+    height: 35px;
+    background: #ffffff15;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50px;
+  }
+  
+  .project-button:hover::before {
+    transform: translate(5%, 20%);
+    width: 110%;
+    height: 110%;
+  }
+  
+  .project-button:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .project-button:active::after {
+    transition: 0s;
+    transform: translate(0, 5%);
+  }
+
+.footer-bg-container {
+    background-color: #191a1d;
+    background-size: cover;
+}
+
+.footer-my-image {
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+}
+
+.footer-h3 {
+    color: #cced00;
+    font-size: 23px;
+}
+
+.footer-p {
+    font-size: 14px;
+    color: #5a7184;
+    font-weight: 600;
+}
+
+.footer-icon {
+    color: #5a7184;
+}
+
+.span {
+    font-size: 14px;
+    color: #b9c6cf;
+    font-weight: 600;
+}
+
+.copyright-card {
+    background-color: #323f4b;
+    background-size: cover;
+    width: 100vw;
+    text-align: center;
+    margin-top: 15px;
+    padding: 5px;
+    color: white;
+}
