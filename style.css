@@ -1,4 +1,8 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .navbar-logo {
     color: white;
     font-size: 35px;
@@ -8,7 +12,7 @@
     background-color: #191a1d;
     height: 100vh;    
     background-size: cover;
-    width: 100vw;
+    
 }
 
 .portfolio-image {
