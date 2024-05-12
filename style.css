@@ -82,6 +82,7 @@
 .portfolio-bg-container {
     background-color: #191a1d;
     background-size: cover;
+    width: 100%;
 }
 
 .portfolio-side-heading {
@@ -105,6 +106,7 @@
 
 .portfolio-skills-container {
     background-color: #191a1d;
+    width: 100%;
 }
 
 .portfolio-skill-card {
@@ -132,6 +134,7 @@
 
 .project-bg-container {
     background-color: #191a1d;
+    width: 100%;
 }
 
 .portfolio-heading {
@@ -181,6 +184,7 @@ p {
 .service-bg-container {
     background-color: #191a1d;
     background-size: cover;
+    width: 100%;
 }
 
 .service-heading {
@@ -282,6 +286,7 @@ p {
 .footer-bg-container {
     background-color: #191a1d;
     background-size: cover;
+    width: 100%;
 }
 
 .footer-my-image {
