@@ -6,6 +6,39 @@
 body{
     background-color: #191a1d;
 }
+/* Style the navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #343a40; /* Dark background color */
+    position: fixed; /* Fixed position */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+}
+
+/* Navbar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: #32333e; /* Light text color for contrast */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #131212; /* Light background color on hover */
+    color: black; /* Dark text color on hover */
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the navigation links stack on top of each other */
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
 .navbar-logo {
     color: white;
     font-size: 35px;
@@ -116,10 +149,7 @@ body{
     height: 160px;
     padding-bottom: 10px;
 }
-.portfolio-skill-card:hover{
-    background-image:linear-gradient(rgb(236, 28, 163), rgb(222, 66, 243),rgba(0, 221, 235, 1))  ;
-    box-shadow:0 8px 16px 0 ;
-}
+
 
 .portfolio-skill-image {
     width: 100px;
@@ -162,7 +192,6 @@ body{
 .project-image {
     width: 100%;
 }
-
 .project-title {
     font-size: 11px;
 }
@@ -214,6 +243,22 @@ p {
 .service-card-description {
     color: #9aa5b1;
 }
+.s-card {
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.5s ease, box-shadow 0.1s ease;
+}
+
+.s-card-content {
+    padding: 16px;
+}
+
+.s-card:hover {
+    transform: scale(1.04);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
 .project-button {
     all: unset;
     width: 100px;
